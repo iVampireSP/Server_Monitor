@@ -1,0 +1,50 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+
+CREATE TABLE `hosts` (
+  `id` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `ip_addr` varchar(130) NOT NULL,
+  `last_update` datetime NOT NULL,
+  `cpu` int(3) NOT NULL,
+  `mem` int(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `resource_stat` (
+  `id` int(11) NOT NULL,
+  `by_host` int(11) NOT NULL,
+  `cpu` varchar(4) NOT NULL,
+  `memory` int(4) NOT NULL,
+  `submit_time` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `hosts`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `name` (`name`),
+  ADD KEY `id` (`id`);
+
+ALTER TABLE `resource_stat`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `by_host` (`by_host`),
+  ADD KEY `submit_time` (`submit_time`),
+  ADD KEY `id` (`id`);
+
+
+ALTER TABLE `hosts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+ALTER TABLE `resource_stat`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5734;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
