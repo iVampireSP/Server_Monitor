@@ -50,7 +50,6 @@ https://your_server_address/update.php?type=update&servername=服务器名称&cp
 
 
 ## 作者们
-[前往页面](https://ivampiresp.com/2020/12/08/%e7%ae%80%e6%98%93%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8%e7%9b%91%e6%8e%a7%e7%a8%8b%e5%ba%8f%ef%bc%9aserver-monitor.html)
+[iVampireSP.com](https://ivampiresp.com/2020/12/08/%e7%ae%80%e6%98%93%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8%e7%9b%91%e6%8e%a7%e7%a8%8b%e5%ba%8f%ef%bc%9aserver-monitor.html)
 
-## Bing_Yanchi
-[前往博客](https://www.yistars.cn)
+[Bing_Yanchi](https://www.yistars.cn)
