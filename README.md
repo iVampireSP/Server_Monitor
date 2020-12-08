@@ -36,17 +36,20 @@ https://your_server_address/update.php?type=update&servername=服务器名称&cp
    你可以将上述脚本保存为一个`sh`文件，并赋予权限，定时执行。
    将`your_server_address`改为你的服务器的URL。
 
+
 2. 通用（依赖`Python3`）
    这是一个`Python`写的监控程序，由冰砚炽编写。在此表示非常感谢！
    
    https://github.com/yistars/Monitor-For-lo-li.art
    打开并克隆上方仓库，一定要查阅`Readme`文件！
+
    
 3. Windows
    https://github.com/yistars/Monitor-For-lo-li.art
    请到上方网址的`Release`界面下载，其中附带了一个`Windows`版的监控程序
 
-## iVampireSP.com
+
+## 作者们
 [前往页面](https://ivampiresp.com/2020/12/08/%e7%ae%80%e6%98%93%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8%e7%9b%91%e6%8e%a7%e7%a8%8b%e5%ba%8f%ef%bc%9aserver-monitor.html)
 
 ## Bing_Yanchi
