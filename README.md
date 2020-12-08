@@ -12,11 +12,14 @@ A Server Monitor By PHP
 
 ## 监控
 挂一个`Cron`来每隔一段时间（最好一星期）访问一次url
+
 https://your_server_address/clear.php?token=your_token
+
 将`your_server_address`改为你的服务器的`URL`,`your_token`改为你在`config.php`设置的`Token`。
 
 ## 接口
 `Get`&`Post`均可以：
+
 https://your_server_address/update.php?type=update&servername=服务器名称&cpu=CPU占用率（不包含百分号）&mem=内存占用率（不包含百分号）
 
 ## 安装客户端
@@ -34,6 +37,7 @@ https://your_server_address/update.php?type=update&servername=服务器名称&cp
         echo 'Submit success!'
    ```
    你可以将上述脚本保存为一个`sh`文件，并赋予权限，定时执行。
+
    将`your_server_address`改为你的服务器的URL。
 
 
