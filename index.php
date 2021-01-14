@@ -15,6 +15,9 @@ require_once 'config.php';
     <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/highcharts/8.2.2/highcharts.min.js"></script>
     <style type="text/css">
+        body,html {
+            scroll-behavior: smooth;
+        }
         #menu .mdui-list-item,
         .mdui-collapse-item-header {
             border-radius: 0px 50px 50px 0px;
